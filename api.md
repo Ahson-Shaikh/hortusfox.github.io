@@ -141,6 +141,38 @@ Remove a gallery photo item
 ANY /api/plants/gallery/remove?item=(gallery item ID)
 ```
 
+#### Add plant attachment
+
+Adds a file as an attachment to a specific plant
+
+```
+POST /api/plants/attachments/add?plant=(plant ID)&label=(display label of file)&POST:attachment=(file to upload)
+```
+
+#### Edit plant attachment
+
+Edits the attachment data. Currently you can only edit the label.
+
+```
+ANY /api/plants/attachments/edit?item=(attachment ID)&label=(new label text)
+```
+
+#### Remove plant attachment
+
+Deletes an attachment for a plant
+
+```
+ANY /api/plants/attachments/remove?item=(attachment ID)
+```
+
+#### Fetch plant attachments
+
+Fetches all attachments of a specific plant
+
+```
+ANY /api/plants/attachments/fetch?plant=(plant ID)&paginate=(null|numeric item ID)
+```
+
 #### Add plant log entry
 
 Adds a new entry to a plants log
