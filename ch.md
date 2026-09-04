@@ -7,7 +7,9 @@ Below is a list of known community hosters. Please note that we are not responsi
 - [ProxmoxVE](https://community-scripts.github.io/ProxmoxVE/scripts?id=hortusfox)
 - [Umbrel](https://apps.umbrel.com/app/hortusfox)
 - [OctaByte](https://octabyte.io/fully-managed-open-source-services/hosting-and-infrastructure/monitoring/hortusfox/)
-- [Hostinger](https://www.hostinger.com/vps/docker/hortusfox)
+- [Hostinger](https://www.hostinger.com/applications/hortusfox)
+- [Railway](https://railway.com/deploy/hortusfox--hortusfox)
+- [ElfHosted](https://store.elfhosted.com/product/hortusfox/)
 
 <p><hr/></p>
 
